@@ -1,0 +1,260 @@
+/*uso * para colocarconfiguracao em tudo ja*/
+
+*{
+	display: grid;
+    grid-template-areas: 'navbar' 'banner' 'main' 'section' 'contact' 'footer';
+    grid-auto-columns: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* letra do logo font-family: 'Pacifico', cursive; */
+
+
+/*configuracao do menu*/
+nav{
+	grid-area: navbar;
+    background-color: green;
+    height: 5px;
+}
+
+
+/*configuracao do baneer e seu conteudo*/
+.banner{
+    grid-area: banner;	
+    height: 70vh;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner_total{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.conteudo_banner{
+/*	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;*/
+	margin-top: 3em;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.conteudo_banner h1{
+	color: #fff;
+	font-family: 'Pacifico', cursive;
+}
+
+.conteudo_banner p{
+	color: #fff;
+}
+
+.icones{
+	width: 14em;
+	display: flex;
+	justify-content: space-around;
+}
+
+.bolinha_banner{
+	width: 4em;
+	height: 4em;
+	background-color: #000;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bolinha_banner_ativa{
+	width: 4em;
+	height: 4em;
+	background-color: green;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner_imagem {
+	height: 70vh;
+}
+
+.banner_imagem img{
+	height: 70vh;
+
+
+}
+
+/*configurando conteudo principal*/
+main{
+	grid-area: main;
+}
+
+
+/*primeira secao*/
+.conteudo_com_card{
+	width: 80%;
+	margin-right:10%; 
+	margin-left:10%;
+    display: flex;
+    justify-content: space-around;
+/*    flex-wrap: wrap;*/
+}
+
+.card{
+	text-align: justify;
+	width: 15em;
+	height: 18em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.bolinha{
+	width: 6em;
+	height: 6em;
+	border-radius: 100%;
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pesquisa_e_foto{
+	background-color: #e2e2e2;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.email_botao{
+	display: flex;
+}
+
+.email{
+	width: 350px;
+	height: 40px;
+	border-radius: 10px;
+	border-style: none;
+}
+
+.notify{
+	margin-left: -3em;
+	width: 90px;
+	height: 40px;
+	border-style: none;
+	background-color: green;
+	color: white;
+	border-radius: 1em;
+}
+
+
+
+.video{
+	margin-right: 10%;
+	width: 40%;
+}
+
+.informacao{
+	margin-left: 10%;
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.pessoas{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 23em;
+}
+
+.info_pessoas{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 6em;
+}
+
+.tituloh2 h2{
+
+}
+
+.paragrafo {
+	width: 80%;
+}
+
+.pessoinha{
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+}
+
+.icones{
+	display: flex;
+}
+
+.icone{
+	width: 2em;
+	height: 2em; 
+}
+
+.icone img{
+	width: 2em;
+	height: 2em;
+}
+
+/*.icone4 img{
+	width: 3em;
+	height: 3em;
+}
+*/
+
+
+footer{
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    background-color: #e2e2e2;
+    
+}
+
+.rodape{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    
+}
+
+
+
+
+
+
+
+
+
+
